@@ -1,0 +1,16 @@
+.container{
+    width: 1920px;
+    margin: 0 auto;
+    padding-right: 275px;
+    padding-left: 275px;
+}
+
+.logo{
+    position: absolute;
+    text-decoration: none;
+color: #01996D;
+}
+
+.list-header {
+    margin-left:  172px; 
+}
