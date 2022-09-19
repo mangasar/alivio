@@ -5,12 +5,75 @@
     padding-left: 275px;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
 .logo{
     position: absolute;
     text-decoration: none;
 color: #01996D;
 }
 
+.header-navigation {
+    padding: 30px 0 30px 0;
+}
+
 .list-header {
     margin-left:  172px; 
+    display: flex;
+}
+
+.list-item {
+    margin-left: 72px;
+    
+}
+
+.list-item:first-child{
+    margin-left: 0;
+}
+
+.link-item {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #292929;   
+}
+
+
+.sign-header {
+    margin-left: 160px;
+    display: flex;
+}
+
+.list-button {
+     font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+background-color: #FFFFFF;
+border: none;
+}
+
+.list-button__green{ 
+    background: #01996D;
+border: 1px solid #01996D;
+border-radius: 4px;
+margin-left: 35px;
+color: #FFFFFF;
+}
+
+.hero{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    linear-gradient(112.58deg, #FFFFFF 18.15%, rgba(255, 255, 255, 0) 53.07%),
+    url(./image/BG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
