@@ -127,6 +127,8 @@ color: #FFFFFF;
 
 .section-aside{
     margin-top: 169px;
+    margin-left: 175px;
+    display: flex;
 }
 
 .aside-pretext{
@@ -141,8 +143,58 @@ color: #424242;
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
-    line-height: 157%;
-    /* or 79px */
-    
-    
-    color: #01996D;}
+width: 584px;
+height: 158px;
+    color: #01996D;
+    line-height: 157%;}
+
+.aside-text{
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+color: #424242;
+width: 671px;
+height: 269px;
+margin-left: 136px;}
+
+.section-number{
+    display: flex;
+    margin-top: 52px;
+    margin-left: 275px;
+}
+
+.number-item{
+    width:390px;
+}
+
+.number-number{
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 150px;
+line-height: 150%;
+text-align: center;
+
+color: rgba(1, 153, 109, 0.2);
+}
+
+.number-pretext{
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 150%;
+text-align: center;
+color: #000000;
+}
+
+.number-text{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+color: #424242;
+}
