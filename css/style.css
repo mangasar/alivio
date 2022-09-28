@@ -1,7 +1,5 @@
 .container{
-    width: 1920px;
-    margin: 0 auto;
-    padding-right: 275px;
+   
     padding-left: 275px;
 }
 
@@ -126,8 +124,6 @@ color: #FFFFFF;
 }
 
 .section-aside{
-    margin-top: 169px;
-    margin-left: 175px;
     display: flex;
 }
 
@@ -160,13 +156,17 @@ height: 269px;
 margin-left: 136px;}
 
 .section-number{
-    display: flex;
+   
     margin-top: 52px;
-    margin-left: 275px;
+}
+
+.number-list{
+    display: flex;
 }
 
 .number-item{
     width:390px;
+    margin-right: 95px;
 }
 
 .number-number{
@@ -197,4 +197,43 @@ font-weight: 500;
 font-size: 20px;
 line-height: 150%;
 color: #424242;
+}
+.number-img{
+    margin-bottom: 51px;
+}
+
+.section-video{
+    padding-top: 310px;
+padding-bottom: 454px;
+background-color: #245852;
+display: flex;
+}
+
+
+.video-title{
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 157%;
+color: #FFFFFF;
+width: 580px;
+}
+
+.video-text{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 157%;
+color: #FFFFFF;
+margin-bottom: 57px;
+}
+
+.video-img{
+width: 895.84px;
+height: 516.11px;
+background: rgba(0, 0, 0, 0.2);
+border-radius: 16.3326px;
+margin-left: 31px;
 }
