@@ -17,11 +17,14 @@ color: #01996D;
 
 .header-navigation {
     padding: 30px 0 30px 0;
+    display: flex;
+    align-items: center;
 }
 
 .list-header {
     margin-left:  172px; 
     display: flex;
+    align-items: center;
 }
 
 .list-item {
@@ -81,7 +84,6 @@ padding: 13px 50px;
   background-position: center;
   background-size: cover;
  padding-left:275px;
- width: 1920px;
  margin-bottom: 91px;
 }
 
@@ -125,6 +127,7 @@ color: #FFFFFF;
 
 .section-aside{
     display: flex;
+    align-items: center
 }
 
 .aside-pretext{
@@ -152,7 +155,6 @@ font-size: 20px;
 line-height: 150%;
 color: #424242;
 width: 671px;
-height: 269px;
 margin-left: 136px;}
 
 .section-number{
@@ -188,6 +190,8 @@ font-size: 30px;
 line-height: 150%;
 text-align: center;
 color: #000000;
+position: relative;
+bottom: 90px;
 }
 
 .number-text{
@@ -197,14 +201,19 @@ font-weight: 500;
 font-size: 20px;
 line-height: 150%;
 color: #424242;
+margin-bottom: 40px;
 }
 .number-img{
     margin-bottom: 51px;
 }
 
+.number-bottom{
+    margin-top: 300px;
+}
+
 .section-video{
     padding-top: 310px;
-padding-bottom: 454px;
+padding-bottom: 176px;
 background-color: #245852;
 display: flex;
 }
@@ -235,5 +244,77 @@ width: 895.84px;
 height: 516.11px;
 background: rgba(0, 0, 0, 0.2);
 border-radius: 16.3326px;
-margin-left: 31px;
+}
+
+.section-our{
+    display: flex;
+    margin-top: 120px;
+    margin-left: 335px;
+    margin-bottom: 242px;
+}
+
+.our-pretext{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 157%;
+color: #424242;
+}
+
+.our-title{
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 157%;
+color: #01996D;
+}
+
+.our-text{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+color: #484848;
+margin-bottom: 40px;
+}
+
+.our{
+    width: 584px;
+    margin-left: 86px;
+   
+}
+
+.footer{
+    padding-top: 95px;
+    background-color: #245852;
+    padding-bottom: 144px;
+}
+
+.footer-list{
+    margin-left: 275px;
+}
+
+.footer-link{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+color: #FFFFFF;
+}
+
+.footer-item{
+    margin-bottom: 60px;
+}
+
+.footer-logo{
+    font-family: 'Avenir';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 55px;
+color: #FFFFFF;
 }
