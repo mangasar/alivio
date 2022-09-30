@@ -1,7 +1,8 @@
 .container{
-    padding-right: auto;
-    padding-left: auto;
-    margin-left: 275px;
+    padding-left: 15px;
+    padding-right: 15px;
+  margin: 0 auto;
+    width: 100%;
 }
 
 img {
